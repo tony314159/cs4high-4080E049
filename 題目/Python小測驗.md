@@ -50,7 +50,6 @@ while index < len(names):
 (D)如果把條件改成 index > len(names),中index最後為2
 
 (B)names[1]是 龍 
-(C)程式執行完後,index最後為2
 (D)如果把條件改成 index > len(names),中index最後為2
 ```
 # 程式設計題
