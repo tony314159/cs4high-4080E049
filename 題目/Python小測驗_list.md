@@ -14,15 +14,31 @@ x = [6, "Dragon", [10, 21, 32]]
  若x = ["first", "second", "third", "fourth"]
  則下列分別為何?哪一個會出錯?
  x[1]
+ 'second'
  x[3]
+ 'fourth'
  x[5]
+ ---------------------------------------------------------------------------
+IndexError                                Traceback (most recent call last)
+<ipython-input-31-c6d8ed1f0b42> in <module>()
+      1 x = ["first", "second", "third", "fourth"]
+----> 2 x[5]
+
+IndexError: list index out of range
+
  x[-1]
+ 'fourth'
  x[-2]
+ 'third'
 
  x[1:3]
+ ['second', 'third']
  x[:3]
+ ['first', 'second', 'third']
  x[1:-1]
+ ['second', 'third']
  x[:]
+ ['first', 'second', 'third', 'fourth']
 ```
 
 
@@ -46,9 +62,9 @@ Python 2.3. 以上版本可用，2.6 版本添加 start 參數。
 seasons = ['Spring', 'Summer', 'Fall', 'Winter']
 list(enumerate(seasons))
 list(enumerate(seasons, start=11))    
-
-
 len(seasons)
+
+4
 ```
 ```
 i = 0
@@ -57,16 +73,27 @@ seq = ['one', 'two', 'three']
 for element in seq:
        print(i, seq[i])
        i +=1
+
+0 one
+1 two
+2 three
 ```
 ```
 seq = ['one', 'two', 'three']
 enumerate(seq)
+<enumerate at 0x7f31f9ef15e8>
 
 seq = ['one', 'two', 'three']
 list(enumerate(seq))
+
+[(0, 'one'), (1, 'two'), (2, 'three')]
 ```
 ```
 seq = ['one', 'two', 'three']
 for i, element in enumerate(seq):
      print(i, element)
+     
+0 one
+1 two
+2 three
 ```
