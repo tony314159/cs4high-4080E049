@@ -12,7 +12,36 @@ https://www.runoob.com/python/python-100-examples.html
 ```
 ```
 答案是：
+for a in range(1,5):
+    for b in range(1,5):
+        for c in range(1,5):
+            if (a != b)and(b != c)and(a != c):
+               print(a,b,c)
 
+1 2 3
+1 2 4
+1 3 2
+1 3 4
+1 4 2
+1 4 3
+2 1 3
+2 1 4
+2 3 1
+2 3 4
+2 4 1
+2 4 3
+3 1 2
+3 1 4
+3 2 1
+3 2 4
+3 4 1
+3 4 2
+4 1 2
+4 1 3
+4 2 1
+4 2 3
+4 3 1
+4 3 2
 ```
 
 #
