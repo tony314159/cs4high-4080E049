@@ -9,6 +9,22 @@
 ```
 ### IEEE 802
 ```
+https://zh.wikipedia.org/wiki/IEEE_802
+```
+```
+IEEE 802中定義的服務和協定限定在OSI模型的最低兩層（即實體層和資料鏈路層）。
+
+IEEE 802將OSI的資料鏈路層分為兩個子層:
+
+Layer-2: 資料鏈路層===>  邏輯鏈路控制（LLC, Logical Link Control）
+                媒介存取控制（MAC, Media Access Control）
+Layer-1: 實體層
+```
+```
+IEEE 802.1：高層區域網路協定（Bridging (networking) and Network Management）
+IEEE 802.2：邏輯鏈路控制（Logical link control）
+
+區域網路用的協定:
 (超級重要)IEEE 802.3：乙太網路（Ethernet）
 IEEE 802.4：權杖匯流排（Token bus）
 IEEE 802.5：權杖環（Token-Ring）
@@ -37,8 +53,18 @@ IEEE 802.23：緊急服務工作群組（Emergency Services Working Group）
 ```
 
 ### ICMP Message Format封包格式:
-```
+
 ![ICMP 封包格式](ICMP封包格式.gif)
+```
+ICMP 封包格式，其各欄位功能如下：
+
+● 訊息型態（Message Type）：表示該 ICMP 所欲控制之訊息型態，共有 13 種型態，訊息型態之型態代表值如表 4-2 所示。
+
+● 編碼（Code）：對各種訊息型態進一步說明工作內容。
+
+● 檢查集檢查碼（Checksum）：對該封包檢查集錯誤偵測。
+
+● 訊息說明（Message description）：依照不同的控制訊息，而有不同的說明方式。
 ```
 
 
