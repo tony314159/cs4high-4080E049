@@ -51,6 +51,10 @@ IEEE 802.22：無線區域網（Wireless Regional Area Network）
 IEEE 802.23：緊急服務工作群組（Emergency Services Working Group）
 
 ```
+###
+ARP
+![ARP -a](ARP -a.GIF)
+
 
 ### ICMP Message Format封包格式:
 
@@ -67,6 +71,27 @@ ICMP 封包格式，其各欄位功能如下：
 ● 訊息說明（Message description）：依照不同的控制訊息，而有不同的說明方式。
 ```
 
+### ICMP 封裝
+![icmp封裝](icmp.gif)
+
+
+
+
+```
+
+
+```
+
+###ICMP常用指令
+```
+
+
+```
+
+![tracert](擷取.GIF)
+
+![tracert2](ksu路由.GIF)
+###
 
 
 
@@ -82,8 +107,3 @@ ICMP 封包格式，其各欄位功能如下：
 
 
 
-
-
-
-
-http://www.tsnien.idv.tw/Manager_WebBook/chap4/4-4%20ICMP%20%E5%8D%94%E5%AE%9A%E8%88%87%E5%88%86%E6%9E%90.html
