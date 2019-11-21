@@ -51,8 +51,7 @@ IEEE 802.22：無線區域網（Wireless Regional Area Network）
 IEEE 802.23：緊急服務工作群組（Emergency Services Working Group）
 
 ```
-###
-ARP
+### ARP
 ![ARP -a](ARP -a.GIF)
 
 
@@ -82,7 +81,7 @@ ICMP 封包格式，其各欄位功能如下：
 
 ```
 
-###ICMP常用指令
+### ICMP常用指令
 ```
 
 
